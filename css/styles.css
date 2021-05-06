@@ -1,0 +1,66 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h4{
+    font-size: 11px;
+}
+.supMenu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 30px;
+}
+.supMenu i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+.supMenu i:last-child{
+    padding-left: 10px;
+}
+
+.supMenu i{
+    font-size: 18px;
+    padding-right: 5px;   
+}
+
+.supMenu i:first-child{
+    padding-left: 15px;
+}
+
+.numero,
+.correo{
+    padding-top: 3px;
+}
+
+
+@media (max-width: 768px) {
+    .supMenu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4px;
+    }
+    .supMenu i{
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .supMenu i:last-child{
+        padding-left: 10px;
+    }
+    
+    .supMenu i{
+        font-size: 18px;
+        
+    }
+
+    .carousel-item img{
+        height: 200px;
+    }
+}
+
+/* @media (max-width: 1502) {
+    .carousel-item img{
+        height: 200px;
+    }
+} */
