@@ -111,19 +111,86 @@ h4{
     }
     .supMenu i{
         font-size: 18px;
-        padding-right: 5px;
-    }
-    .supMenu i:last-child{
-        padding-left: 10px;
     }
     
     .supMenu i{
         font-size: 18px;
-        
     }
+
+    .supMenu h4{
+        font-size: 12px;
+    }
+
+    .telefono{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .redes-sociales{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    /*Header*/
 
     .carousel-item img{
         height: 200px;
+    }
+
+    .imagen-inicio{
+        height: 100%;
+    }
+
+    .servicios-responsive{
+        flex-direction: column;
+    }
+
+    .menuFotter{
+        flex-direction: column;
+    }
+
+    .imagen-footer{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parrafo-fotter{
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-footer-a h4{
+        padding-top: 30px;
+    }
+
+    .menu-footer-a a{
+        padding: 0px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .menu-footer-a nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parrafo{
+        font-size: 12px;
+        padding-left: 100px;
     }
 }
 
