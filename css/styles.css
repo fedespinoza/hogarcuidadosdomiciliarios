@@ -5,6 +5,10 @@ body{
 h4{
     font-size: 11px;
 }
+
+.color-verde{
+    background-color: #ffb58aa1;
+}
 .supMenu{
     display: flex;
     justify-content: start;
@@ -127,6 +131,12 @@ a:link, a:visited, a:active {
     display: none;
 }
 
+.quienes-somos,
+    .internacion-domiciliaria,
+    .beneficios{
+        text-align: justify;
+    }
+
 @media (max-width: 768px) {
     .supMenu{
         display: none;
@@ -236,6 +246,17 @@ a:link, a:visited, a:active {
     /*CONTACTO*/
     .mapa-display{
         display: inline;
+    }
+
+    /*QUIENES SOMOS*/
+    .quienes-somos,
+    .internacion-domiciliaria,
+    .beneficios{
+        text-align: center;
+    }
+
+    .texto-nosabemos{
+        text-align: justify;
     }
 
 }
