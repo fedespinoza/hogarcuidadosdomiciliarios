@@ -51,7 +51,7 @@ h4{
 
 .redes-sociales a p{
     font-size: 12px;
-    /* padding-top: 5px; */
+    padding-top: 5px;
     text-decoration: none;
     color: black;
 }
@@ -259,11 +259,12 @@ a:link, a:visited, a:active {
     /*QUIENES SOMOS*/
     .quienes-somos,
     .internacion-domiciliaria,
-    .beneficios{
+    .beneficios,
+    .equipo{
         text-align: center;
     }
 
-    .texto-nosabemos{
+    .texto-justificado-quienes-somos{
         text-align: justify;
     }
 
