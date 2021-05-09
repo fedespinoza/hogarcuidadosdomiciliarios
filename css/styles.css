@@ -7,7 +7,7 @@ h4{
 }
 
 .color-verde{
-    background-color: #ffb58aa1;
+    background-color: #81EBA9;
 }
 .supMenu{
     display: flex;
@@ -51,7 +51,7 @@ h4{
 
 .redes-sociales a p{
     font-size: 12px;
-    padding-top: 5px;
+    /* padding-top: 5px; */
     text-decoration: none;
     color: black;
 }
@@ -131,11 +131,19 @@ a:link, a:visited, a:active {
     display: none;
 }
 
+/*QUIENES SOMOS*/
+
 .quienes-somos,
-    .internacion-domiciliaria,
-    .beneficios{
-        text-align: justify;
-    }
+.internacion-domiciliaria,
+.beneficios,
+.equipo{
+    text-align: justify;
+}
+
+.equipo h3{
+    font-size: 23px;
+    padding-top: 15px;
+}
 
 @media (max-width: 768px) {
     .supMenu{
