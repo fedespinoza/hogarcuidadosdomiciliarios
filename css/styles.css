@@ -328,11 +328,23 @@ a:link, a:visited, a:active {
     .imagen-inicio2{
         display: none;
     }
+    .mapa-display2{
+        display: none;
+    }
 }
 
 @media (min-width: 1400px){
     .imagen-inicio{
         display: none;
+    }
+    .mapa-display{
+        display: none;
+    }
+    footer{
+        padding-top: 80px;
+    }
+    .footer-contacto{
+        padding-top: 222px;
     }
 }
 
