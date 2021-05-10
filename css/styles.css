@@ -2,6 +2,7 @@ body{
     /* font-family: 'Noto Sans JP', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
+    background-color: #fdf4ff;
 }
 h4{
     font-size: 11px;
