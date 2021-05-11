@@ -1,78 +1,72 @@
 body{
     /* font-family: 'Noto Sans JP', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    min-height: 100vh;
     background-color: #fdf4ff;
 }
-h4{
-    font-size: 11px;
-}
 
-.color-verde{
+/***COLOR DE FONDO***/
+.color-fondo{
     background-color: #81EBA9;
 }
+
+/*MENÚ SUPERIOR*/
 .supMenu{
     display: flex;
-    justify-content: start;
-    align-items: center;
-    padding-top: 4px;
-    padding-left: 30px;
 }
+
+.supMenu h4{
+    font-size: 0.8em;
+}
+
 .supMenu i{
-    font-size: 18px;
+    font-size: 1em;
     padding-right: 5px;
 }
-.supMenu i:last-child{
-    padding-left: 10px;
-}
 
-.supMenu i{
-    font-size: 18px;
-    padding-right: 5px;   
-}
-
-.supMenu i:first-child{
-    padding-left: 15px;
+.telefono,
+.mail,
+.red-social-instagram,
+.red-social-facebook{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .numero,
-.correo{
-    padding-top: 3px;
-    font-size: 12px;
+.correo,
+.instagram,
+.facebook,
+.red-social-instagram i,
+.red-social-facebook i{
     text-decoration: none;
     color: black;
 }
 
-.redes-sociales a i{
-    color: #000;
-    padding: 0;
-    margin: 0;
-    font-size: 17px;
-    padding-top: 6px;
-}
-
-.redes-sociales a p{
-    font-size: 12px;
+.red-social-instagram,
+.red-social-facebook {
     padding-top: 5px;
-    text-decoration: none;
-    color: black;
+    margin: 0;
 }
 
-.redes-sociales a p:hover{
-    color: crimson;
+.mail a h4:hover,
+.red-social-instagram a:hover,
+.red-social-facebook a h4:hover{
+    color: #ff0000;
 }
 
 a:link, a:visited, a:active {
     text-decoration:none;
 }
 
-.texto-cuidados{
-    font-size: 15px;
+/*MENU DE NAVEGACION*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #ff0000;
 }
 
-.letra-ubicacion{
-    font-size: 14px;
-    color: #303030;
+
+/***TEXTO HEADER***/
+.texto-cuidados{
+    font-size: 0.8;
 }
 
 /*SERVICIOS*/
@@ -96,19 +90,28 @@ a:link, a:visited, a:active {
     text-align: center;
 }
 
-.mapa{
-    background-image: url(../img/mapa-hurlingham.png);
-    background-size: contain;
-}
-
+/*UBICACION Y CONTACTO*/
 .contacto1 a{
     text-decoration: none;
     color: black;
 }
 
-.contacto1 a:hover{
+.contacto1 a:hover,
+.contacto1 a p:hover{
     color: crimson;
+    
 }
+
+.contacto{
+    padding-bottom: 15px;
+}
+
+.letra-ubicacion{
+    font-size: 14px;
+    color: #303030;
+}
+
+/***FOOTER***/
 
 .menuFotter{
     padding: 20px 0;
@@ -125,11 +128,16 @@ a:link, a:visited, a:active {
 }
 
 .parrafo{
-    font-size: 13px;
+    font-size: 0.8em;
+}
+
+.menu-footer-a h4{
+    font-size: 0.8em;
+    padding-bottom: 6px;
 }
 
 .menu-footer-a a{
-    padding: 0 10px;
+    padding: 0 8px;
     text-decoration: none;
 }
 
@@ -137,12 +145,11 @@ a:link, a:visited, a:active {
     padding: 0;
 }
 
-/*CONTACTO*/
-.mapa-display{
-    display: none;
+.menu-de-navegacion-footer a:hover{
+    color: #ff0000;
 }
 
-/*QUIENES SOMOS*/
+/*SECCION QUIENES SOMOS*/
 
 .quienes-somos,
 .internacion-domiciliaria,
@@ -156,7 +163,7 @@ a:link, a:visited, a:active {
     padding-top: 15px;
 }
 
-/*CREDITOS*/
+/*SECCION CRÉDITOS*/
 
 .columna-de-cards{
     display: flex;
@@ -176,6 +183,7 @@ a:link, a:visited, a:active {
     font-size: 13px;
 }
 
+
 @media (max-width: 768px) {
     .supMenu{
         display: none;
@@ -183,55 +191,8 @@ a:link, a:visited, a:active {
         align-items: center;
         padding-top: 4px;
     }
-    /* .supMenu i{
-        font-size: 18px;
-    }
-    
-    .supMenu i{
-        font-size: 18px;
-    }
 
-    .supMenu h4{
-        font-size: 12px;
-    }
-
-    .telefono{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .mail{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .redes-sociales{
-        display: flex;
-        flex-direction: column;
-        padding-right: 20px;
-    }
-
-    .instagram,
-    .facebook{
-        display: none;
-    } */
-
-    /*Header*/
-
-    .carousel-item img{
-        height: 200px;
-    }
-
-    .imagen-inicio{
-        height: 100%;
-    }
-
+    /*****Header******/
     .titulo-cuidados{
         width: 60%;
          margin: 0 auto;
@@ -300,9 +261,7 @@ a:link, a:visited, a:active {
     }
 
     /*CONTACTO*/
-    .mapa-display{
-        display: inline;
-    }
+
 
     /*QUIENES SOMOS*/
     .quienes-somos,
@@ -325,22 +284,16 @@ a:link, a:visited, a:active {
 
 }
 
-@media (max-width: 1400px){
-    .imagen-inicio2{
-        display: none;
+@media (max-width: 1110px){
+    .titulo-cuidados{
+        font-size: 1em;
     }
-    .mapa-display2{
-        display: none;
+    .texto-cuidados{
+        font-size: 0.8em;
     }
 }
 
 @media (min-width: 1400px){
-    .imagen-inicio{
-        display: none;
-    }
-    .mapa-display{
-        display: none;
-    }
     footer{
         padding-top: 80px;
     }

@@ -12,28 +12,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="img/azul-circular.png" type="image/x-icon">
-    <title>Hogar Cuidados Domiciliarios || Inicio</title>
+    <title>Hogar Cuidados Domiciliarios | Inicio</title>
 </head>
 <body>
     <div class="container-fluid p-0 overflow-hidden">
 
-        <!--Menu Superior Amarillo-->
+        <!--Menu Superior-->
         <div class="row">
-            <div class="supMenu color-verde col-sm-12">
-                <div class="telefono d-flex pt-1">
+            <div class="supMenu color-fondo col-sm-12">
+                <div class="telefono">
                     <i class="fas fa-phone"></i>
                     <h4 class="numero">011-56274279</h4>
                 </div>
-                <div class="mail d-flex pt-1">
+                <div class="mail">
                     <i class="far fa-envelope"></i>
                     <a href="mailto:hogarcuidadosdomiciliarios@gmail.com"><h4 class="correo">hogarcuidadosdomiciliarios@gmail.com</h4></a>
                 </div>
-                <div class="redes-sociales d-flex pt-2">
-                    <a href="https://instagram.com/hogarcuidadosdomiciliarios?igshid=gdhgzuwzin5f" target="new"><i class="fab fa-instagram px-2"></i></a>
-                    <a href="https://instagram.com/hogarcuidadosdomiciliarios?igshid=gdhgzuwzin5f" target="new" class="instagram"><p>hogarcuidadosdomiciliarios</p></a>
-                    <!--Separacion redes sociales-->
-                    <a href="https://www.facebook.com/Hogarcuidadosdomiciliarios" target="new"><i class="fab fa-facebook-f px-2"></i></a>
-                    <a href="https://www.facebook.com/Hogarcuidadosdomiciliarios" target="new"><p class="facebook">hogarcuidadosdomiciliarios</p></a>
+                <div class="red-social-instagram">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/hogarcuidadosdomiciliarios?igshid=gdhgzuwzin5f" target="new" class="instagram"><h4>hogarcuidadosdomiciliarios</h4></a>
+                </div>
+                <div class="red-social-facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.facebook.com/Hogarcuidadosdomiciliarios" target="new"><h4 class="facebook">hogarcuidadosdomiciliarios</h4></a>
                 </div>
             </div>
         </div>
@@ -41,12 +42,12 @@
         <!--Menu de Navegación Navbar-->
         <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="40"></a>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="40"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
@@ -79,21 +80,19 @@
             </div>
         </nav>
 
-        <div class="row">
-            <div class="col-sm-7 p-0">
-                <img src="img/azul-cuadrado-img-fondo.jpg" alt="" height="400" width="100%" class="imagen-inicio">
-                <img src="img/azul-cuadrado-img-fondo-1400.jpg" alt="" height="400" width="100%" class="imagen-inicio2">
+        <header class="row">
+            <div class="col-lg-7 p-0">
+                <img src="img/azul-cuadrado-img-fondo.jpg" alt="imagen-hogar-cuidados-domiciliarios" width="100%" class="imagen-inicio">
             </div>
-            <div class="col-sm-5 color-verde d-flex flex-column justify-content-center">
+            <div class="col-lg-5 color-fondo d-flex flex-column justify-content-center pb-3">
                 <h2 class="fs-4 pt-4 px-4 titulo-cuidados">Hogar Cuidados Domiciliarios</h2>
-                <p class="px-4 pt-4 texto-cuidados">Hogar Cuidados Domiciliarios es una empresa argentina destinada a brindar
-                    soluciones de cuidados integrales e internación domiciliaria a personas adultas que
-                    padecen enfermedades recientes, transitorias o crónicas con el objetivo de optimizar la
-                    calidad de vida del paciente y su familia a través de personal altamente calificado.
-                    Respetamos los valores, creencias y diversidad cultural de todas las personas que
-                    asistimos.</p>
+                <p class="px-4 pt-4 texto-cuidados">Hogar Cuidados Domiciliarios es una empresa argentina destinada a brindar soluciones de cuidados integrales e internación domiciliaria a personas adultas que
+                padecen enfermedades recientes, transitorias o crónicas con el objetivo de optimizar la
+                calidad de vida del paciente y su familia a través de personal altamente calificado.
+                Respetamos los valores, creencias y diversidad cultural de todas las personas que
+                asistimos.</p>
             </div>
-        </div>
+        </header>
 
         <!--Nuestros Servicios-->
         <div class="row nuestros-servicios">
@@ -103,24 +102,24 @@
 
             <div class="col-10 d-flex justify-content-around m-auto servicios-responsive">
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/cuidados.jpg" alt="" width="100px">
+                    <img src="img/cuidados.jpg" alt="imagen-cuidados" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Cuidados Domiciliarios</p>
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/internacion.jpg" alt="" width="100px">
+                    <img src="img/internacion.jpg" alt="imagen-internación-domiciliaria" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Internación Domiciliaria</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/mental.jpg" alt="" width="100px">
+                    <img src="img/mental.jpg" alt="imagen-salud-mental" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Salud Mental</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/rehabilitación-original.jpg" alt="" width="100px">
+                    <img src="img/rehabilitación-original.jpg" alt="imagen-rehabilitación" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Rehabilitación</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
@@ -128,25 +127,25 @@
 
             <div class="col-10 d-flex justify-content-around m-auto div-servicios servicios-responsive">
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/interconsultas-especialistas.jpg" alt="" width="100px">
+                    <img src="img/interconsultas-especialistas.jpg" alt="imagen-interconsultas-especialistas" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Interconsultas con especialistas</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/nutricional.jpg" alt="" width="100px">
+                    <img src="img/nutricional.jpg" alt="imagen-soporte-nutricional" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Soporte <br/>Nutricional</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/equipamiento.jpeg" alt="" width="85px">
+                    <img src="img/equipamiento.jpeg" alt="imagen-alquiler-insumos" width="85px">
                     <p class="pt-3 parrafo-de-servicios">Alquiler de insumos y equipamiento</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/estudios-comp.jpg" alt="" width="120px">
+                    <img src="img/estudios-comp.jpg" alt="imagen-estudios-complementarios" width="120px">
                     <p class="pt-3 parrafo-de-servicios">Estudios Complementarios en Domicilio</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
@@ -154,19 +153,19 @@
 
             <div class="col-10 d-flex justify-content-around m-auto div-servicios servicios-responsive">
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/vacunación.jpg" alt="" width="100px">
+                    <img src="img/vacunación.jpg" alt="imagen-vacunación" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Vacunación a Domicilio</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/estimulacion-cognitiva.jpg" alt="" width="100px">
+                    <img src="img/estimulacion-cognitiva.jpg" alt="imagen-estimulación-cognitiva" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Estimulación Cognitiva</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
 
                 <div class="primer-servicio d-flex flex-column align-items-center border py-3 rounded">
-                    <img src="img/belleza.jpg" alt="" width="100px">
+                    <img src="img/belleza.jpg" alt="imagen-cuidado-personal" width="100px">
                     <p class="pt-3 parrafo-de-servicios">Cuidado Personal</p>
                     <!-- <button class="btn btn-warning">Ver</button> -->
                 </div>
@@ -175,10 +174,11 @@
 
         <!--Ubicacion-->
         <div class="row">
-            <div class="col-sm-8 p-0 mapa">
-                <!-- <img src="img/mapa-hurlingham.png" alt="" width="100%" height="400px"> -->
+            <div class="col-lg-8 p-0 mapa">
+                <!-- <img src="img/mapa-hurlingham2.jpg" alt="imagen-mapa" class="mapa-hurlingham"> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26276.1577713886!2d-58.65573657535756!3d-34.59101719960421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9254c083df5%3A0x87b633dca0937bac!2sHurlingham%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1620752404103!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="col-sm-4 color-verde d-flex flex-column justify-content-center">
+            <div class="col-lg-4 color-fondo d-flex flex-column justify-content-center contacto">
                 <h2 class="fs-4 pt-4 px-4">Ubicación y Contacto</h2>
                 <div class="contacto1 d-flex px-2 pt-4">
                     <i class="fas fa-map-marker-alt px-3"></i><p class="letra-ubicacion">Moron - Hurlingham</p>
@@ -187,10 +187,10 @@
                     <i class="fas fa-phone px-3"></i><p class="letra-ubicacion">011-56274279</p>
                 </div>
                 <div class="contacto1 d-flex px-2 pt-4">
-                    <i class="far fa-envelope px-3"></i><a href="mailto:hogarcuidadosdomiciliarios@gmail.com"><p class="letra-ubicacion">hogarcuidadosdomiciliarios@gmail.com</p></a>
+                    <a href="mailto:hogarcuidadosdomiciliarios@gmail.com" class="d-flex"><i class="far fa-envelope px-3"></i><p class="letra-ubicacion">hogarcuidadosdomiciliarios@gmail.com</p></a>
                 </div>
-                <div class="contacto1  px-2 pt-4">
-                    <a href="https://www.facebook.com/Hogarcuidadosdomiciliarios" target="new" class="d-flex"><i class="fab fa-facebook px-3"></i><p class="letra-ubicacion">HOGAR Cuidados Domiciliarios</p></a>
+                <div class="contacto1 px-2 pt-4">
+                    <a href="https://www.facebook.com/Hogarcuidadosdomiciliarios" target="new" class="d-flex"><i class="fab fa-facebook px-3"></i><p class="letra-ubicacion">Hogar Cuidados Domiciliarios</p></a>
                 </div>
                 <div class="contacto1 d-flex px-2 pt-4">
                     <a href="https://www.instagram.com/hogarcuidadosdomiciliarios/?igshid=gdhgzuwzin5f" target="new" class="d-flex"><i class="fab fa-instagram px-3"></i><p class="letra-ubicacion">hogarcuidadosdomiciliarios</p></a>
@@ -201,18 +201,16 @@
         <footer class="row footer">
             <div class="menuFotter col-12 d-flex align-items-center" style="background-color: #e3f2fd;">
                 <div class="col-7 imagen-footer d-flex align-items-center">
-                    <img src="img/Blanco circular.png" alt="" width="100px" class="pb-4">
-                    <p class="parrafo-fotter">Hogar Cuidados Domiciliarios es una empresa argentina destinada a brindar
-                        soluciones de cuidados integrales e internación domiciliaria a personas adultas que
-                        padecen enfermedades recientes, transitorias o crónicas con el objetivo de optimizar la
-                        calidad de vida del paciente y su familia a través de personal altamente calificado.
-                        Respetamos los valores, creencias y diversidad cultural de todas las personas que
-                        asistimos.
-                    </p>
+                    <img src="img/Blanco circular.png" alt="imagen-hogar-cuidados-domiciliarios" width="100px" class="pb-4">
+                    <p class="parrafo-fotter">Hogar Cuidados Domiciliarios es una empresa argentina destinada a     brindar soluciones de cuidados integrales e internación domiciliaria a personas adultas que
+                    padecen enfermedades recientes, transitorias o crónicas con el objetivo de optimizar la
+                    calidad de vida del paciente y su familia a través de personal altamente calificado.
+                    Respetamos los valores, creencias y diversidad cultural de todas las personas que
+                    asistimos.</p>
                 </div>
                 <div class="col-8 menu-footer-a">
                     <nav>
-                        <h4 class="px-2">Menú de Navegación</h4>
+                        <h4>Menú de Navegación</h4>
                         <div class="menu-de-navegacion-footer">
                             <div class="">
                                 <a href="index.html">Inicio</a>
