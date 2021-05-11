@@ -32,6 +32,20 @@ body{
     padding-top: 5px;
 }
 
+.telefono i,
+.mail i,
+.red-social-instagram i,
+.red-social-facebook i{
+    padding-right: 10px;
+}
+
+.telefono h4,
+.mail a h4,
+.red-social-instagram a h4,
+.red-social-facebook a h4{
+    padding-top: 1px;
+}
+
 .numero,
 .correo,
 .instagram,
