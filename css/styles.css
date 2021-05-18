@@ -163,6 +163,15 @@ a:link, a:visited, a:active {
     color: #ff0000;
 }
 
+.habilitacion h2{
+    font-size: 1.3em;
+    width: 60%;
+}
+
+.habilitacion{
+    font-size: 0.7em;
+}
+
 /*SECCION QUIENES SOMOS*/
 
 .quienes-somos,
@@ -272,6 +281,17 @@ a:link, a:visited, a:active {
     .parrafo{
         font-size: 10px;
         padding-left: 100px;
+    }
+
+    .habilitacion h2{
+        font-size: 1.3em;
+        width: 100%;
+    }
+    
+    .habilitacion{
+        font-size: 0.7em;
+        margin-top: 3em;
+        text-align: center;
     }
 
     /*CONTACTO*/
